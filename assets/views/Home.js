@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import {View, Text, Button,Image, ScrollView} from 'react-native';
+import logo from '../image/sabesp.png';
 
 
-
-//class Home extends Component{
 export default function Home ({navigation}){
- // render({navigation}){
 
       return(
         
@@ -18,9 +16,8 @@ export default function Home ({navigation}){
           </View>
           
           <View>
-           <Image style={{marginVertical:20,width:150,height:150,alignSelf:'center'}}
-            source={require('./assets/image/sabesp.png')}
-            />
+            <Image style={{marginVertical:20,width:150,height:150,alignSelf:'center'}}
+            source={logo}/>
           </View>
             
         <ScrollView>
